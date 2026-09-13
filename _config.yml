@@ -1,0 +1,15 @@
+title: TimeSlice
+description: Your new AI planning assistant
+theme: jekyll-theme-primer
+
+# Keep Jekyll from traversing Flask/Python artifacts (broken venv symlinks break the build)
+exclude:
+  - env
+  - myenv
+  - __pycache__
+  - instance
+  - templates
+  - app.py
+  - package-lock.json
+  - "*.pyc"
+  - "*.py"
